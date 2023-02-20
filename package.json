@@ -9,6 +9,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "chalk": "^5.2.0",
     "expo": "~47.0.12",
     "expo-blur": "^12.0.1",
     "expo-status-bar": "~1.4.2",
