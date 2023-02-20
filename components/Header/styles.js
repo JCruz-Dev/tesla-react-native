@@ -22,13 +22,17 @@ const styles = StyleSheet.create({
         resizeMode: 'contain',
     },
     blurContainer: {
-        paddingTop: 4,
-        paddingBottom: 4,
-        paddingHorizontal: 10,
-        borderRadius: 4,
+        paddingTop: 8,
+        paddingBottom: 8,
+        paddingHorizontal: 15,
+        borderBottomLeftRadius: 4,
+        borderBottomRightRadius: 4,
+        borderTopRightRadius: 4,
+        borderTopLeftRadius: 4,
+        overflow: 'hidden',
     },
     text: {
-        fontWeight: '800',
+        fontWeight: '600',
     },
 });
 export default styles;

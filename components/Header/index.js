@@ -9,9 +9,15 @@ const Header = () => {
                 style={styles.logo}
                 source={require('../../assets/logo.png')}
             />
-            <BlurView intensity={60} style={styles.blurContainer}>
-                <Text style={styles.text}>Menu</Text>
-            </BlurView>
+            <View>
+                <BlurView
+                    intensity={80}
+                    tint='light'
+                    style={styles.blurContainer}
+                >
+                    <Text style={styles.text}>Menu</Text>
+                </BlurView>
+            </View>
         </View>
     );
 };
