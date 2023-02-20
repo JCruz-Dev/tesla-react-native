@@ -11,8 +11,8 @@ const Header = () => {
             />
             <View>
                 <BlurView
-                    intensity={80}
-                    tint='light'
+                    intensity={100}
+                    tint='default'
                     style={styles.blurContainer}
                 >
                     <Text style={styles.text}>Menu</Text>
